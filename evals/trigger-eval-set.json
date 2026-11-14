@@ -1,0 +1,55 @@
+{
+  "skill_name": "sgs-skill-polish",
+  "eval_set": [
+    {
+      "id": "pos-1",
+      "query": "帮我把王累〖拼将一死〗的技能描述按官方规则集规范化一下，改完写回 JSON。",
+      "should_trigger": true
+    },
+    {
+      "id": "pos-2",
+      "query": "我设计了一个新武将，技能是：回合开始时摸两张牌然后弃一张装备，帮我写成规范的技能描述。",
+      "should_trigger": true
+    },
+    {
+      "id": "pos-3",
+      "query": "审查一下这个技能描述有没有结算漏洞：〖疑城〗出牌阶段限一次，你可以将一张牌交给一名其他角色。",
+      "should_trigger": true
+    },
+    {
+      "id": "pos-4",
+      "query": "这个描述里\"你弃置他一张牌\"和\"令他弃置一张牌\"是不是一回事？有歧义吗？",
+      "should_trigger": true
+    },
+    {
+      "id": "pos-5",
+      "query": "把新UI.BOIL001.空军司令.沈金坤.json 里的技能描述润色成官方风格。",
+      "should_trigger": true
+    },
+    {
+      "id": "neg-1",
+      "query": "帮我把沈金坤这个武将写成 FreeKill 拓展，实现他的两个技能。",
+      "should_trigger": false
+    },
+    {
+      "id": "neg-2",
+      "query": "三国杀里【无懈可击】能不能无懈【无懈可击】？给我讲讲规则。",
+      "should_trigger": false
+    },
+    {
+      "id": "neg-3",
+      "query": "给王累画一张武将原画。",
+      "should_trigger": false
+    },
+    {
+      "id": "neg-4",
+      "query": "我的拓展包加载报错了，日志说 skill not found，帮我看看。",
+      "should_trigger": false
+    },
+    {
+      "id": "neg-5",
+      "query": "帮我调整新UI模板里技能描述的字号和排版。",
+      "should_trigger": false
+    }
+  ]
+}

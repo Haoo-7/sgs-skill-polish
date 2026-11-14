@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-labelledby="t d">
+  <title id="t">使用引文横条</title>
+  <desc id="d">引文横条：一句话，让 Agent 进入对应的流程。</desc>
+  <rect width="1200" height="120" rx="26" fill="#17150F"/>
+  <rect x="60" y="36" width="5" height="48" rx="2.5" fill="#B03A2E"/>
+  <text x="600" y="68" text-anchor="middle" font-family="Georgia,'Songti SC','SimSun',serif" font-size="23" fill="#D8D2C2"><tspan fill="#C9A45C">〖 </tspan>一句话，让 Agent 进入对应的流程<tspan fill="#C9A45C"> 〗</tspan></text>
+</svg>

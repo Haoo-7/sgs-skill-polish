@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">sgs-skill-polish — 三国杀 DIY 技能描述优化 Agent Skill</title>
+  <desc id="hero-desc">左侧为仓库名与一句话价值：把白话技能落成无歧义、可结算、官方风格的描述；右侧为一张风格化武将卡，卡上的官方模板〖制衡〗描述被标注引线拆解为时机、消耗、效果三个要素。</desc>
+
+  <defs>
+    <linearGradient id="card-face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#262015"/>
+      <stop offset="1" stop-color="#1C1811"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 底板 -->
+  <rect width="1200" height="420" rx="26" fill="#17150F"/>
+
+  <!-- 背景装饰：书名号母题 -->
+  <text x="30" y="250" font-family="Georgia,'Songti SC','SimSun',serif" font-size="220" fill="#C9A45C" opacity="0.05">〖</text>
+  <text x="1176" y="250" text-anchor="end" font-family="Georgia,'Songti SC','SimSun',serif" font-size="220" fill="#C9A45C" opacity="0.05">〗</text>
+
+  <!-- ══ 左侧标题区 ══ -->
+  <g id="title-block" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+    <text x="64" y="104" font-family="Georgia,'Songti SC','SimSun',serif" font-size="21" fill="#C9A45C">〖 三国杀 DIY 技能描述 · Agent Skill 〗</text>
+
+    <text x="62" y="168" font-size="50" font-weight="800" letter-spacing="0" fill="#F2ECDC">sgs-skill-polish</text>
+
+    <text x="64" y="210" font-size="22" fill="#D8D2C2">把白话技能落成无歧义、可结算、官方风格的描述</text>
+
+    <text x="64" y="248" font-size="20" fill="#C9A45C"><tspan fill="#B03A2E" font-weight="700">▶</tspan> 六要素拆解 · 官方模板成文 · 改动对照审查</text>
+
+    <g font-family="ui-monospace,'SF Mono',Consolas,Menlo,monospace" font-size="18" fill="#9C947F">
+      <text x="64" y="292">依据 凌天翼《三国杀官方规则集》V2.2 · 13 条官方模板</text>
+    </g>
+
+    <!-- 核心信条 -->
+    <text x="64" y="340" font-size="20"><tspan fill="#B03A2E" font-weight="700">▶</tspan><tspan fill="#F2ECDC" font-weight="700"> 描述即规则</tspan><tspan fill="#9C947F"> — 每个字都对应确定的结算行为</tspan></text>
+  </g>
+
+  <!-- ══ 右侧样本卡 · 卡面解剖 ══ -->
+  <g id="specimen-card">
+    <!-- 卡框 -->
+    <rect x="745" y="35" width="230" height="350" rx="16" fill="url(#card-face)" stroke="#C9A45C" stroke-width="2"/>
+    <rect x="752" y="42" width="216" height="336" rx="11" fill="none" stroke="#C9A45C" stroke-width="1" opacity="0.35"/>
+
+    <!-- 竖排名牌（左侧全高条） -->
+    <rect x="758" y="48" width="32" height="188" rx="6" fill="#7E2A22" stroke="#C9A45C" stroke-width="1"/>
+    <g font-family="Georgia,'Songti SC','SimSun',serif" font-size="30" fill="#F2ECDC" text-anchor="middle">
+      <text x="774" y="118">孙</text>
+      <text x="774" y="172">权</text>
+    </g>
+
+    <!-- 势力徽记：吴 -->
+    <circle cx="950" cy="63" r="15" fill="#2E6E4E" stroke="#C9A45C" stroke-width="1.5"/>
+    <text x="950" y="69" text-anchor="middle" font-family="Georgia,'Songti SC','SimSun',serif" font-size="16" fill="#F2ECDC">吴</text>
+
+    <!-- 画像区：几何山形 -->
+    <g>
+      <rect x="796" y="98" width="169" height="138" fill="#1B1710"/>
+      <polygon points="796,236 858,150 900,200 938,140 965,236" fill="#2E2818"/>
+      <polygon points="796,236 838,190 888,236" fill="#3A3222" opacity="0.85"/>
+      <circle cx="930" cy="122" r="14" fill="#C9A45C" opacity="0.35"/>
+      <!-- 印章 -->
+      <rect x="932" y="204" width="26" height="26" rx="4" fill="#B03A2E"/>
+      <text x="945" y="224" text-anchor="middle" font-family="Georgia,'Songti SC','SimSun',serif" font-size="17" fill="#F2ECDC">权</text>
+    </g>
+
+    <!-- 技能框 -->
+    <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+      <rect x="758" y="244" width="207" height="134" rx="8" fill="#201B12" stroke="#3A3226" stroke-width="1"/>
+      <text x="770" y="270" font-family="Georgia,'Songti SC','SimSun',serif" font-size="22" fill="#C9A45C">〖制衡〗</text>
+      <text x="770" y="298" font-size="20" fill="#F2ECDC">出牌阶段限一次，</text>
+      <text x="770" y="321" font-size="20" fill="#F2ECDC">你可以弃置任意张牌</text>
+      <text x="770" y="344" font-size="20" fill="#9C947F">（至少一张），</text>
+      <text x="770" y="367" font-size="20" fill="#F2ECDC">然后摸等量的牌。</text>
+      <!-- 要素下划线 -->
+      <rect x="770" y="306" width="160" height="3" rx="1.5" fill="#C9A45C"/>
+      <rect x="770" y="329" width="180" height="3" rx="1.5" fill="#C4453A"/>
+      <rect x="770" y="375" width="160" height="3" rx="1.5" fill="#7C9A62"/>
+    </g>
+  </g>
+
+  <!-- ══ 标注引线 ══ -->
+  <g stroke-width="1.5" fill="none">
+    <!-- 时机 -->
+    <line x1="712" y1="290" x2="764" y2="305" stroke="#C9A45C"/>
+    <circle cx="766" cy="305.5" r="3.5" fill="#C9A45C"/>
+    <!-- 消耗 -->
+    <line x1="712" y1="346" x2="764" y2="329" stroke="#C4453A"/>
+    <circle cx="766" cy="328.5" r="3.5" fill="#C4453A"/>
+    <!-- 效果 -->
+    <line x1="992" y1="373" x2="912" y2="375" stroke="#7C9A62"/>
+    <circle cx="910" cy="375.5" r="3.5" fill="#7C9A62"/>
+  </g>
+  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" font-weight="700">
+    <text x="700" y="294" text-anchor="end" fill="#C9A45C">时机</text>
+    <text x="700" y="352" text-anchor="end" fill="#C4453A">消耗</text>
+    <text x="1000" y="379" fill="#7C9A62">效果</text>
+  </g>
+</svg>
